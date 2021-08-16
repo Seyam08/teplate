@@ -1,0 +1,321 @@
+/* Large devices (laptops/desktops, 991px and down) */
+@media only screen and (max-width: 991px) {
+	/* header area start */
+	.logo-area {
+		background: #fff;
+		padding: 12px 0px;
+	}
+	.menu-area .nav-item {
+		padding: 5px 5px;
+	}
+	.menu-area .navbar-toggler{
+		padding: 10px 0px;
+	}
+	.search-area {
+		top: 125px;
+		right: 30px;
+	}
+	.searchbar-icon, .searchbar-submit {
+		width: 30px;
+		height: 30px;
+		font-size: 14px;
+		line-height: 30px;
+		border-radius: 30px;
+	}
+	.searchbar-input {
+		height: 30px;
+		padding: 0px 30px 0px 0px;
+		font-size: 14px;
+		border-radius: 30px;
+	}
+	.searchbar {
+		min-width: 30px;
+		height: 30px;
+	}
+	/* header area end */
+	/* banner area start */
+	.carousel-box h5 {
+		font-size: 30px;
+		margin-bottom: 15px;
+	}
+	.carousel-box p {
+		font-size: 24px;
+		margin-bottom: 20px;
+	}
+	/* banner area end */
+	/* about area start */
+	.about-area {
+		padding: 60px;
+	}
+	.about-area h2 {
+		font-size: 42px;
+		margin-bottom: 40px;
+	}
+	.text-info p {
+		font-size: 16px;
+	}
+	/* about area end */
+	/* course area start */
+	.course-area {
+		padding: 60px;
+	}
+	.course-area h2 {
+		font-size: 46px;
+		margin-bottom: 0px;
+	}
+	.course-box {
+		margin-top: 40px;
+	}
+	/* course area end */
+	
+	/* call action area start */
+	
+	.call-action-area {
+		padding: 30px 0px;
+	}
+	.call-text h2 {
+		font-size: 24px;
+	}
+	.call-text p {
+		font-size: 14px;
+	}
+	.call-icons {
+		margin-top: 30px;
+	}
+	.call-icon-blck i {
+		font-size: 30px;
+	}
+	.call-icon-blck h3 {
+		font-size: 18px;
+		margin-top: 5px;
+	}
+	/* call action area end */
+	
+	/* growth area start */
+	.grth-txt {
+		padding: 50px 0px;
+	}
+	.counter i {
+		font-size: 32px;
+	}
+	.count-title {
+		font-size: 24px;
+	}
+	.count-text {
+		font-size: 10px;
+	}
+	.counter {
+		padding: 0px 0;
+		border-radius: 5px;
+	}
+	.grth-count {
+		padding: 5px 20px;
+		margin-top: -20px;
+	}
+	.grth-count>i {
+		top: -60%;
+	}
+	.grth-txt h2 {
+		font-size: 42px;
+	}
+	/* growth area end */
+	
+	/* video area start */
+	.video-area {
+		padding: 60px 0px;
+	}
+
+	.vdeo-txt {
+		padding: 35px 40px;
+	}
+	.vdeo-txt p {
+		font-size: 36px;
+	}
+	/* video area end */
+	/* testimonial area start */
+	.testimonial-area {
+		padding: 60px 0px;
+	}
+	.testi-box>img{
+		height: 50px;
+		width: 50px;
+	}
+	.testi-data {
+		margin: 30px 0px;
+	}
+	/* testimonial area end */
+	
+	/* footer area start */
+	.footer-container {
+		max-width: 900px;
+		margin: auto;
+	}
+	.footer-area {
+		padding: 60px 0px;
+	}
+	.ftr-hdr {
+		font-size: 18px;
+	}
+	.ftr-clm2>ul li,.ftr-clm3>ul li a,.ftr-clm4>ul li a{
+		font-size: 14px;
+	}
+	/* footer area end */
+	
+}
+@media only screen and (max-width: 767px) {
+	
+	.commu-bar {
+		padding: 10px 70px 10px 10px;
+	}
+	.search-area {
+		top: 175px;
+	}
+	.menu-area {
+		justify-content: center;
+	}
+	.carousel-box{
+		padding: 0px 0px;
+	}
+	.carousel-box h5 {
+		font-size: 24px;
+		margin-bottom: 10px;
+	}
+	.carousel-box .slide-btn {
+		background: #E0091A;
+		color: #ffffff;
+		font-weight: 600;
+		border-radius: 25px;
+		padding: 7px 10px;
+		font-size: 12px;
+	}
+	.carousel.slide.vertical .carousel-indicators li {
+		height: 10px;
+		width: 10px;
+	}
+	.carousel.slide.vertical .carousel-indicators li i {
+		font-size: 13px;
+	}
+	.about-area {
+		padding: 30px 10px;
+	}
+	.about-area h2 {
+		font-size: 34px;
+		margin-bottom: 30px;
+	}
+	.video-info {
+		text-align: center;
+	}
+	.text-info {
+		margin-top: 15px;
+	}
+	.course-area {
+		padding: 40px;
+	}
+	.course-area h2 {
+		font-size: 36px;
+	}
+	.course-box {
+		margin-top: 10px;
+	}
+	.course-item .crs-nm {
+		left: 32%;
+		width: 36%;
+	}
+	.call-text b,
+	.call-text h2{
+		font-size: 18px;
+	}
+	.call-text p {
+		padding-right: 0px;
+	}
+	.call-action-area .cst-container,
+	.grth-area .cst-container{
+		max-width: 670px;
+	}
+	.call-floting-pic1 img,
+	.call-floting-pic2 img	{
+		height: 100px;
+		width: 100px;
+	}
+	.team-area {
+		padding: 30px 150px;
+	}
+	.team-area h2 {
+		font-size: 36px;
+	}
+	.team-box {
+		margin-top: 35px;
+	}
+	.tm-pic img {
+		height: 70px;
+		width: 70px;
+	}
+	.vdeo-txt p {
+		font-size: 24px;
+		padding-right: 0px;
+	}
+	.testimonial-area h2 {
+		font-size: 36px;
+	}
+	.ftr-clm1,.ftr-clm2,.ftr-clm3,.ftr-clm4 {
+		padding: 20px 40px;
+	}
+	.ftr-clm1>.ftr-logo {
+		width: 35%;;
+	}
+	.ftr-clm1>.social-link>a>i {
+		margin: 0px 7px;
+		font-size: 14px;
+	}
+	
+}
+@media only screen and (max-width: 576px) {
+	.search-area {
+		top: 200px;
+	}
+	.carousel-box h5 {
+		font-size: 22px;
+	}
+	.carousel-box p {
+		font-size: 18px;
+	}
+	.grth-txt h2 {
+		font-size: 28px;
+	}
+	.counter i {
+		font-size: 26px;
+	}
+	.count-title {
+		font-size: 20px;
+	}	
+	.team-area {
+		padding: 30px 120px;
+	}
+	.ftr-clm1>.ftr-logo {
+		width: 35%;;
+	}
+
+	
+	
+	
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
