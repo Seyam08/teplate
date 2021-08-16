@@ -134,9 +134,9 @@ button:focus{
 }	
 	
 .search-area{
-	position: absolute;
-    top: 110px;
-    right: 12px;
+    position: absolute;
+    top: 170px;
+    right: 40px;
     z-index: 999;
 }	
 
